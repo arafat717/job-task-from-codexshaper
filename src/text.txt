@@ -1,0 +1,78 @@
+            <div>
+              <div>
+                <img className="img" src={img1} alt="" />
+                <div>
+                  <p>
+                    <IoHomeOutline className="shareicon"></IoHomeOutline>
+                  </p>
+                  <p>
+                    <FaSearch className="shareicon"></FaSearch>
+                  </p>
+                  <p style={{ position: "relative" }}>
+                    <GoDeviceCameraVideo className="shareicon"></GoDeviceCameraVideo>
+                  </p>
+                  <p>
+                    <RiPlayList2Line className="shareicon"></RiPlayList2Line>
+                  </p>
+                </div>
+              </div>
+              <div>
+                <p>
+                  <FaPlay className="playIcon"></FaPlay>
+                </p>
+              </div>
+              <div className="cardpara">
+                <h1 className="cardTitle">World war 02</h1>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "10px",
+                    color: "#999999",
+                  }}
+                >
+                  <p
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "3px",
+                    }}
+                  >
+                    <FaStar style={{ fontSize: "20px" }}></FaStar>{" "}
+                    <span>4.9</span>
+                  </p>
+                  <p
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "3px",
+                    }}
+                  >
+                    <FaClock style={{ fontSize: "20px" }}></FaClock>{" "}
+                    <span>02h 30m</span>
+                  </p>
+                  <p
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "3px",
+                    }}
+                  >
+                    <span
+                      style={{
+                        background: "white",
+                        padding: "3px",
+                        color: "black",
+                        fontSize: "11px",
+                      }}
+                    >
+                      4K
+                    </span>
+                    4k Quality
+                  </p>
+                </div>
+                <p style={{ color: "#999999", marginTop: "8px" }}>
+                  Action, Comedy
+                </p>
+              </div>
+            </div>

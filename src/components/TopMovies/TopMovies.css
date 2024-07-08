@@ -1,0 +1,30 @@
+.topMovies {
+  position: relative;
+  width: 1800px;
+  height: 454px;
+  top: 836px;
+  left: 60px;
+  gap: 0px;
+  border-radius: 50px;
+  opacity: 0px;
+  background: linear-gradient(95.04deg, #181818 7.27%, #151515 99.21%);
+}
+
+/* .card {
+  text-align: center;
+} */
+
+.cardbody {
+  text-align: center;
+}
+
+.cardTitle {
+  color: #ffffff;
+  font-size: 35px;
+  margin: 15px 0;
+}
+
+.card-pera {
+  color: #999999;
+  margin: 15px 0;
+}

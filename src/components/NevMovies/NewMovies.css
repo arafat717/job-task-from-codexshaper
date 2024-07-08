@@ -1,0 +1,121 @@
+.newMovies {
+  position: absolute;
+  width: 1942px;
+  height: 505px;
+  top: 1470px;
+}
+
+.scroll {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 50px;
+}
+
+.scroll-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.scroll-title h1 {
+  font-size: 50px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.scroll-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.cardimg {
+  position: relative;
+  border-radius: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.allnewmovies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  padding: 3px;
+  gap: 30px;
+}
+
+.img {
+  z-index: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.shareIcons {
+  position: absolute;
+  top: 5px;
+  left: 250px;
+}
+
+.shareicon {
+  font-size: 12px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 5px 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.playicons {
+  position: absolute;
+  top: 135px;
+  left: 110px;
+}
+
+.playIcon {
+  font-size: 21px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.cardpara {
+  position: absolute;
+  top: 220px;
+  left: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.shareicon:hover {
+  background: linear-gradient(
+    92.28deg,
+    rgba(90, 13, 255, 1) 0%,
+    rgba(255, 41, 184, 1) 38.6%,
+    rgba(255, 88, 28, 1) 97.73%
+  );
+}
+
+.cardimg:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.cardimg:hover .playIcon,
+.cardimg:hover .shareicon,
+.cardimg:hover .cardpara {
+  visibility: visible;
+  opacity: 10;
+}
